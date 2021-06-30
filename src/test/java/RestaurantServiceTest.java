@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class RestaurantServiceTest {
     RestaurantService service = new RestaurantService();
     Restaurant restaurant;
-    //REFACTOR ALL THE REPEATED LINES OF CODE
+    //REFACTOR Code
 @BeforeEach
 public void mockService() {
     LocalTime openingTime = LocalTime.parse("09:00:00");
