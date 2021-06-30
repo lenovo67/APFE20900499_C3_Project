@@ -58,7 +58,7 @@ public class Restaurant {
                 +"Menu:"+"\n"+getMenu());
 
     }
-
+//Solution
     public String getName() {
         return name;
     }
