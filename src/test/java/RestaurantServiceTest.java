@@ -8,7 +8,8 @@ class RestaurantServiceTest {
     RestaurantService service = new RestaurantService();
     Restaurant restaurant;
     //REFACTOR Code
-@BeforeEach
+//solution//
+    @BeforeEach
 public void mockService() {
     LocalTime openingTime = LocalTime.parse("09:00:00");
     LocalTime closingTime = LocalTime.parse("22:00:00");
