@@ -5,6 +5,7 @@ public class Item {
     public Item(String name, int price) {
         this.name = name;
         this.price = price;
+        //solution Case
     }
     public double getPrice(){
         return price;
