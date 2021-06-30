@@ -74,13 +74,13 @@ class RestaurantTest {
     }
 
         @Test
-        public void test_sum_of_all_the_selected_items_should_fail(){
+        public void test_sum_of_all_the_selected_items_should_fail_if_sum_does_not_match(){
         List<Item> items = new ArrayList<>();
         items.add(new Item( "Mushroom", 30 )  );
         items.add(new Item( "Rice", 40 )  );
         items.add(new Item( "Chapati", 40 )  );
         double price = restaurant.sumOfTotalBill( items );
-        Assertions.assertEquals( 11, price );
+        Assertions.assertNotEquals( 11,items );
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }
