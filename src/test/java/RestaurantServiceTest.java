@@ -21,7 +21,7 @@ public void mockService() {
     public void searching_for_existing_restaurant_should_return_expected_restaurant_object() throws restaurantNotFoundException {
         //WRITE UNIT TEST CASE HERE
 
-           Assertions.assertEquals(restaurant,service.findRestaurantByName("cafe"));
+           Assertions.assertEquals(restaurant,service.findRestaurantByName("Amelie's cafe"));
     }
     @Test
     public void searching_for_non_existing_restaurant_should_throw_exception() throws restaurantNotFoundException {

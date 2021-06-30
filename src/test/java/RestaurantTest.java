@@ -65,7 +65,7 @@ class RestaurantTest {
         //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
         //<<<<<<<<<<<<<<<<<<<<<<<<TotalCost of Selected Item>>>>>>>>>>>>>>>>>>>>>>>>>
-    }
+    }   //<<<
     @Test
     public void test_sum_of_all_the_selected_items_should_pass() {
         List<Item> items = new ArrayList<>();
