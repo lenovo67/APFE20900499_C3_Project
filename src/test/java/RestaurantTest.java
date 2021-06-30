@@ -74,7 +74,7 @@ class RestaurantTest {
     }
 
         @Test
-        public void test_sum_of_all_the_selected_items_should_fail_if_sum_does_not_match(){
+        public void test_sum_of_all_the_selected_items_should_fail_if_sum_does_not_match_actual_cost(){
         List<Item> items = new ArrayList<>();
         items.add(new Item( "Mushroom", 30 )  );
         items.add(new Item( "Rice", 40 )  );
