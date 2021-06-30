@@ -19,8 +19,8 @@ class RestaurantTest {
         LocalTime openingTime = LocalTime.parse("09:00:00");
         LocalTime closingTime = LocalTime.parse("22:00:00");
         restaurant = new Restaurant("Amelie's cafe", "BLR", openingTime, closingTime);
-        restaurant.addToMenu("Soup", 20);
-        restaurant.addToMenu("Tea", 40);
+        restaurant.addToMenu("Sizzling brownie", 20);
+        restaurant.addToMenu("Vegetable lasagne", 40);
     }
     //>>>>>>>>>>>>>>>>>>>>>>>>>OPEN/CLOSED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     //-------FOR THE 2 TESTS BELOW, YOU MAY USE THE CONCEPT OF MOCKING, IF YOU RUN INTO ANY TROUBLE
