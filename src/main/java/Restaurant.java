@@ -58,10 +58,11 @@ public class Restaurant {
                 +"Menu:"+"\n"+getMenu());
 
     }
-//Solution
+
     public String getName() {
         return name;
     }
+    //Solution
     public double sumOfTotalBill(List<Item> itemselected){
         double sum =0;
         for(Item item: itemselected){
