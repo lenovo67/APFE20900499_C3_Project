@@ -12,7 +12,7 @@ class RestaurantServiceTest {
 public void mockService() {
     LocalTime openingTime = LocalTime.parse("09:00:00");
     LocalTime closingTime = LocalTime.parse("22:00:00");
-    restaurant = service.addRestaurant("cafe", "BLR", openingTime, closingTime);
+    restaurant = service.addRestaurant("Amelie's cafe", "BLR", openingTime, closingTime);
     restaurant.addToMenu("Soup", 20);
     restaurant.addToMenu("Tea", 40);
 }
