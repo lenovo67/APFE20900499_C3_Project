@@ -63,6 +63,15 @@ class RestaurantTest {
         assertThrows(itemNotFoundException.class,
                 ()->restaurant.removeFromMenu("French fries"));
     }
+    @Test
+    public void test_sum_of_all_the_selected_items(){
+        List<Item> items = new ArrayList<>();
+        items.add(new Item( "Mushroom", 30 )  );
+        items.add(new Item( "Rice", 40 )  );
+        items.add(new Item( "Chapati", 40 )  );
+        double price = restaurant.sumOfTotalBill( items );
+        Assertions.assertEquals( 110, price );
 
+    }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }
