@@ -62,5 +62,12 @@ public class Restaurant {
     public String getName() {
         return name;
     }
+    public double sumOfTotalBill(List<Item> itemselected){
+        double sum =0;
+        for(Item item: itemselected){
+            sum += item.getPrice();
 
+            }
+    return sum;
+    }
 }
