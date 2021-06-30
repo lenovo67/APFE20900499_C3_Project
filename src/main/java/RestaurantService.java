@@ -16,7 +16,7 @@ public class RestaurantService {
 
         }
 
-        //DELETE ABOVE STATEMENT AND WRITE CODE HERE
+
 
     public Restaurant addRestaurant(String name, String location, LocalTime openingTime, LocalTime closingTime) {
         Restaurant newRestaurant = new Restaurant(name, location, openingTime, closingTime);
