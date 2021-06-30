@@ -12,11 +12,9 @@ public class RestaurantService {
                 return restaurant;
             }
         }
-        throw new restaurantNotFoundException(restaurantName);
+        throw new restaurantNotFoundException("Error: Restaurant could not be found");
 
         }
-
-
 
     public Restaurant addRestaurant(String name, String location, LocalTime openingTime, LocalTime closingTime) {
         Restaurant newRestaurant = new Restaurant(name, location, openingTime, closingTime);
